@@ -38,6 +38,7 @@ nav {
             background-color: rgba(128, 128, 128, 0.9);
             transition: top 500ms;
             color: white;
+            
         }        
 
         &:nth-child(even)::after{
@@ -60,6 +61,7 @@ nav {
             align-items: center;
             text-align: center;
             padding: 20px;
+            pointer-events: none;
         }
 
         &:nth-child(2)::after{
@@ -68,6 +70,7 @@ nav {
             justify-content: center;
             align-items: center;
             text-align: center;
+            pointer-events: none;
         } 
         
         &:nth-child(3)::after{
@@ -76,6 +79,7 @@ nav {
             justify-content: center;
             align-items: center;
             text-align: center;
+            pointer-events: none;
         } 
         
         &:nth-child(4)::after{
@@ -84,6 +88,7 @@ nav {
             justify-content: center;
             align-items: center;
             text-align: center;
+            pointer-events: none;
         }             
 
         a{
